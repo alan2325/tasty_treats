@@ -8,6 +8,6 @@ def about(req):
 def contact(req):
     return render(req,'contact-us.html')
 def element(req):
-    return render(req,'element.html')
+    return render(req,'elements.html')
 def menu(req):
     return render(req,'menu.html')
