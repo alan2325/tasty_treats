@@ -11,3 +11,7 @@ def element(req):
     return render(req,'elements.html')
 def menu(req):
     return render(req,'menu.html')
+def blogdetails(req):
+    return render(req,'blog-details.html')
+def bloghome(req):
+    return render(req,'blog-home.htm')
